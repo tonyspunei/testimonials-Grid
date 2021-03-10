@@ -1,0 +1,87 @@
+.container {
+  height: 100vh;
+  width: 100%;
+
+  background: $lightGrayishBlue;
+
+  padding-top: 71px;
+  padding-left: 24px;
+  padding-right: 24px;
+
+  &__box {
+  }
+
+  .testemonial {
+    height: 444px;
+    width: 327px;
+    background: $moderateViolet;
+    border-radius: 8px;
+
+    padding-top: 24px;
+    padding-left: 33px;
+    padding-right: 33px;
+
+    &__profile {
+      position: relative;
+      &__header {
+        display: flex;
+        align-items: center;
+
+        margin-bottom: 22px;
+
+        .testemonialImage {
+          height: 32px;
+          width: 32px;
+          border: 1px solid $white;
+          border-radius: 50%;
+          margin-right: 1rem;
+        }
+
+        .profileText {
+          font-size: 12px;
+          color: $white;
+
+          &__name {
+            margin-bottom: 4px;
+          }
+
+          &__verified {
+            opacity: 50%;
+          }
+        }
+      }
+
+      &__boldText {
+        position: relative;
+        font-size: 16px;
+        color: $white;
+        margin-bottom: 25px;
+        z-index: 4;
+
+        h3 {
+          line-height: 1.4;
+        }
+      }
+
+      &__transparentText {
+        color: $white;
+        opacity: 70%;
+        font-size: 12px;
+
+        p {
+          line-height: 1.5;
+        }
+      }
+
+      &__quotation {
+        position: absolute;
+        top: -24px;
+        right: 0px;
+
+        svg {
+          z-index: -1;
+        }
+      }
+    }
+  }
+}

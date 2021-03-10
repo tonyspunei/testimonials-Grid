@@ -1,0 +1,36 @@
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-size: $font-med;
+  font-weight: 500;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 500;
+  line-height: 1.15;
+  margin-top: 0px;
+}
+
+a,
+a:visited,
+a:hover {
+  text-decoration: none;
+}
+
+p {
+  margin: 0px;
+}
